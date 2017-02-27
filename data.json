@@ -1,0 +1,85 @@
+{
+    "doctors": [
+        {
+            "sinatra": {
+                "first_name": "Frank",
+                "last_name": "Sinatra",
+                "speciality": "Pediatrics"
+            }
+        },
+        {    
+            "martin": {
+                "first_name": "Dean",
+                "last_name": "Martin",
+                "speciality": "Jeriatrics"
+            }
+        },    
+        {
+            "lewis": {
+                "first_name": "Jerry",
+                "last_name": "Lewis",
+                "speciality": "Surgeon"
+            }
+        }
+    ],    
+
+
+    "patients": [
+        {
+
+                "first_name": "Margot",
+                "last_name": "Svenson",
+                "ailment": "Arthritis",
+                "doctor_id": "sinatra"              
+        },
+        {
+                "first_name": "Amy",
+                "last_name": "Walters",
+                "ailment": "Bursitis",
+                "doctor_id": "sinatra"
+        },
+        {
+                "first_name": "Mary",
+                "last_name": "Smith",
+                "ailment": "Arthritis",
+                "doctor_id": "sinatra"
+        },
+        {
+                "first_name": "John",
+                "last_name": "Wall",
+                "ailment": "Headache",
+                "doctor_id": "martin"
+        },
+        {
+                "first_name": "Lebron",
+                "last_name": "James",
+                "ailment": "Broken arm",
+                "doctor_id": "martin"
+        },
+        {
+                "first_name": "Derrick",
+                "last_name": "Rose",
+                "ailment": "Blindness",
+                "doctor_id": "martin"
+        },
+        {
+                "first_name": "Paul",
+                "last_name": "George",
+                "ailment": "Stomach",
+                "doctor_id": "lewis"
+        },
+        {
+                "first_name": "Koby",
+                "last_name": "Bryant",
+                "ailment": "Deafness",
+                "doctor_id": "lewis"
+        },
+        {
+                "first_name": "George",
+                "last_name": "Clooney",
+                "ailment": "Broken leg",
+                "doctor_id": "lewis"
+        }            
+
+    ]
+}    

@@ -1,0 +1,10 @@
+<h2>Our Doctors:</h2><hr>
+
+<div class="row">
+	<ul class="col-xs-12" ng-repeat="doctor in doctors">
+	    <li>Doctor: {{doctor.firstName}} {{doctor.lastName}} <br />
+	    <li>Speciality:</b> {{doctor.speciality}}</li> <br />
+	    <a ng-click="getObjName(doctor.name)" ng-href="#!/patients-list/{{doctor.lastName}}">See Dr. {{ doctor.lastName }}'s patients</a>
+	    <hr>
+	</ul>
+</div>	

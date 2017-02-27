@@ -1,0 +1,10 @@
+<h2>Doctor {{$routeParams}}'s Patient List</h2>
+
+<ul class="col-xs-12" ng-repeat="patient in patients">
+	<li>Name: {{patient.firstName }} {{patient.lastName}}</li>
+	<li>Condition: {{patient.ailment}}</li> <hr>
+</ul><br />
+
+<!-- Affordance to return to list of doctors -->
+<br /><hr>
+<button><a id="affordanceBtn" ng-href="/">Return to list of all Doctors</a></button>
